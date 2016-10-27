@@ -3,7 +3,7 @@ import {Ingredient} from "../shared/ingredient";
 import {ShoppingListService} from "./shopping-list.service";
 
 @Component({
-  selector: 'rb-shopping-list',
+  selector: 'shopping-list',
   templateUrl: './shopping-list.component.html'
 })
 export class ShoppingListComponent implements OnInit {
