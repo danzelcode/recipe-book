@@ -1,8 +1,8 @@
-import {Route} from "@angular/router";
+import {Route, Routes} from "@angular/router";
 import {RecipeStartComponent} from "./recipe-start.component";
 import {RecipeEditComponent} from "./recipe-edit/recipe-edit.component";
 
-export const RECIPE_ROUTES: Route = [
+export const RECIPE_ROUTES: Routes = [
   {path: '', component: RecipeStartComponent},
   {path: 'new', component: RecipeStartComponent},
   {path: ':id', component: RecipeStartComponent},
